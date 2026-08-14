@@ -1,31 +1,33 @@
 <h2 id="experience">Experience</h2>
 
-<div class="experience-list">
-{% for item in site.data.experience.main %}
-<div class="experience-row">
-  <div class="experience-logo">
-    {% if item.image %}
-    <img src="{{ item.image }}" alt="{{ item.organization }} logo">
+<h3 id="academic-experience" class="experience-subtitle">Academic Experience</h3>
+
+<div class="publications experience-publications">
+<ol class="bibliography">
+
+{% for link in site.data.academic_experience.academic %}
+
+<li>
+<div class="pub-row experience-entry">
+  <div class="col-sm-3 abbr experience-abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    {% if link.image %}
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1 experience-teaser" alt="{{ link.title }} logo">
     {% endif %}
   </div>
-  <div class="experience-content">
-    <div class="experience-title">
-      {% if item.page %}
-      <a href="{{ item.page }}"><strong>{{ item.title }}</strong></a>
-      {% else %}
-      <strong>{{ item.title }}</strong>
-      {% endif %}
-    </div>
-    {% if item.time %}
-    <div class="experience-time">{{ item.time }}</div>
+  <div class="col-sm-9 experience-content" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="{{ link.page }}">{{ link.title }}</a></div>
+    {% if link.time %}
+    <div class="time">{{ link.time }}</div>
     {% endif %}
-    {% if item.advisor %}
-    <div class="experience-advisor">Advised by {{ item.advisor }}.</div>
-    {% endif %}
-    {% if item.topic %}
-    <div class="experience-topic"><strong>Topic:</strong> {{ item.topic }}</div>
+    {% if link.description %}
+    <div class="description">{{ link.description }}</div>
     {% endif %}
   </div>
 </div>
+</li>
+<br>
+
 {% endfor %}
+
+</ol>
 </div>
