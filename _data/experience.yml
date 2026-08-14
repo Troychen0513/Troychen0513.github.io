@@ -1,0 +1,8 @@
+main:
+  - title: "Research Intern, Medical Artificial Intelligence Laboratory, Westlake University"
+    organization: "Westlake University"
+    page: https://medai.lab.westlake.edu.cn/
+    time: "Mar. 2026 - Present"
+    advisor: "<a href=\"https://example.com/\">Advisor Name</a>"
+    topic: "Medical AI"
+    image: ./assets/img/westlake_logo.jpg
