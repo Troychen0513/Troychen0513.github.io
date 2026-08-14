@@ -1,4 +1,4 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
+<h2 id="publications">Publications</h2>
 
 {% if site.data.publications.main and site.data.publications.main.size > 0 %}
 <div class="publications">

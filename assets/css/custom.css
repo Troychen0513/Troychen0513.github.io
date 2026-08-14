@@ -1,7 +1,40 @@
 :root {
+  --heading-blue: #00335f;
   --accent: #0f766e;
+  --underline: #f5a623;
   --accent-soft: #e6f4f1;
   --ink-soft: #4b5563;
+}
+
+body {
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+section {
+  font-size: 1.06rem;
+}
+
+section p,
+section li {
+  font-size: 1.06rem;
+  line-height: 1.65;
+}
+
+section h2 {
+  display: inline-block;
+  margin: 1.7rem 0 0.85rem;
+  padding-bottom: 1px;
+  border-bottom: 3px solid var(--underline);
+  color: var(--heading-blue);
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.18;
+}
+
+section h3 {
+  color: var(--heading-blue);
+  font-size: 1.12rem;
 }
 
 .status-note {
@@ -13,7 +46,8 @@
 }
 
 .muted-note,
-.description {
+.description,
+.project-description {
   color: var(--ink-soft);
 }
 
@@ -24,4 +58,69 @@
 header .avatar img,
 a.avatar img {
   object-fit: cover;
+}
+
+.project-list {
+  margin: 0.35rem 0 1.8rem;
+}
+
+.project-item {
+  margin: 0.4rem 0 1.1rem;
+  padding: 0;
+}
+
+.project-heading {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.65rem;
+  margin-bottom: 0.2rem;
+}
+
+.project-heading h3 {
+  margin: 0;
+  font-size: 1.12rem;
+  line-height: 1.35;
+}
+
+.project-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.35rem;
+  padding: 0.12rem 0.55rem;
+  border-radius: 3px;
+  background: var(--heading-blue);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.project-authors,
+.project-meta {
+  margin-top: 0.1rem;
+}
+
+.project-description {
+  margin-top: 0.35rem;
+}
+
+.publications {
+  margin-top: 0.25rem;
+}
+
+.publications ol.bibliography li .title {
+  font-size: 1.04rem;
+  line-height: 1.35;
+}
+
+@media (max-width: 720px) {
+  body {
+    font-size: 16px;
+  }
+
+  section h2 {
+    font-size: 1.48rem;
+  }
 }
