@@ -7,34 +7,36 @@
 }
 
 body {
-  font-size: 17px;
-  line-height: 1.65;
+  font-size: 18px !important;
+  line-height: 1.68;
 }
 
-section {
-  font-size: 1.06rem;
+.wrapper section {
+  font-size: 18px !important;
+  line-height: 1.68;
 }
 
-section p,
-section li {
-  font-size: 1.06rem;
-  line-height: 1.65;
+.wrapper section p,
+.wrapper section li {
+  font-size: 18px !important;
+  line-height: 1.68;
 }
 
-section h2 {
+.wrapper section h2 {
   display: inline-block;
-  margin: 1.7rem 0 0.85rem;
-  padding-bottom: 1px;
+  width: fit-content;
+  margin: 1.8rem 0 0.9rem !important;
+  padding-bottom: 2px;
   border-bottom: 3px solid var(--underline);
-  color: var(--heading-blue);
-  font-size: 1.7rem;
-  font-weight: 700;
+  color: var(--heading-blue) !important;
+  font-size: 30px !important;
+  font-weight: 700 !important;
   line-height: 1.18;
 }
 
-section h3 {
-  color: var(--heading-blue);
-  font-size: 1.12rem;
+.wrapper section h3 {
+  color: var(--heading-blue) !important;
+  font-size: 20px;
 }
 
 .status-note {
@@ -79,7 +81,7 @@ a.avatar img {
 
 .project-heading h3 {
   margin: 0;
-  font-size: 1.12rem;
+  font-size: 20px;
   line-height: 1.35;
 }
 
@@ -111,16 +113,22 @@ a.avatar img {
 }
 
 .publications ol.bibliography li .title {
-  font-size: 1.04rem;
+  font-size: 18px;
   line-height: 1.35;
 }
 
 @media (max-width: 720px) {
   body {
-    font-size: 16px;
+    font-size: 16px !important;
   }
 
-  section h2 {
-    font-size: 1.48rem;
+  .wrapper section,
+  .wrapper section p,
+  .wrapper section li {
+    font-size: 16px !important;
+  }
+
+  .wrapper section h2 {
+    font-size: 25px !important;
   }
 }

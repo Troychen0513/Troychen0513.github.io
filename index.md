@@ -2,8 +2,6 @@
 layout: homepage
 ---
 
-<link rel="stylesheet" href="./assets/css/custom.css">
-
 ## About Me
 
 I am an undergraduate student at the [School of Mathematics and Statistics](https://maths.ccnu.edu.cn/), [Central China Normal University](https://www.ccnu.edu.cn/), Wuhan, China.
@@ -22,8 +20,7 @@ With a background in statistics, I am building a solid foundation in mathematics
 
 ## News
 
-- **[Aug. 2026]** Homepage migrated to the Minimal Light academic theme.
-- **[Jul. 2026]** Homepage updated with a clearer research profile and redesigned content sections.
+- **[2026]** Started conducting research in medical artificial intelligence.
 
 ## Education
 
@@ -34,9 +31,15 @@ With a background in statistics, I am building a solid foundation in mathematics
 
 {% include_relative _includes/publications.md %}
 
+## Experience
+
+- **Research Intern**, Westlake University.  
+  Working on medical artificial intelligence research.
+
 ## Honors & Awards
 
 - **[2026]** First Prize, Zhengda Cup National College Student Market Research and Analysis Competition.
+- **[2025]** First-class Scholarship, Central China Normal University.
 - **[2025]** First Prize, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM).
 
 ## Contact
