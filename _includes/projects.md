@@ -1,0 +1,46 @@
+<h2 id="projects" style="margin: 2px 0px -15px;">Selected Projects</h2>
+
+<div class="publications">
+<ol class="bibliography">
+{% for link in site.data.projects.main %}
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    {% if link.image %}
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" alt="project teaser">
+    {% endif %}
+    {% if link.conference_short %}
+    <abbr class="badge">{{ link.conference_short }}</abbr>
+    {% endif %}
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title">
+      {% if link.page or link.code %}
+      <a href="{{ link.page | default: link.code }}">{{ link.title }}</a>
+      {% else %}
+      {{ link.title }}
+      {% endif %}
+    </div>
+    <div class="author">{{ link.authors }}</div>
+    <div class="periodical"><em>{{ link.conference }}</em></div>
+    {% if link.description %}
+    <div class="description">{{ link.description }}</div>
+    {% endif %}
+    <div class="links">
+      {% if link.page %}
+      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener">Project Page</a>
+      {% endif %}
+      {% if link.code %}
+      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener">Code</a>
+      {% endif %}
+      {% if link.video %}
+      <a href="{{ link.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener">Video</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+</li>
+<br>
+{% endfor %}
+</ol>
+</div>

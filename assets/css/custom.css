@@ -1,0 +1,27 @@
+:root {
+  --accent: #0f766e;
+  --accent-soft: #e6f4f1;
+  --ink-soft: #4b5563;
+}
+
+.status-note {
+  margin: 14px 0 8px;
+  padding: 10px 13px;
+  border-left: 4px solid var(--accent);
+  background: var(--accent-soft);
+  border-radius: 6px;
+}
+
+.muted-note,
+.description {
+  color: var(--ink-soft);
+}
+
+.links a {
+  font-size: 12px;
+}
+
+header .avatar img,
+a.avatar img {
+  object-fit: cover;
+}
