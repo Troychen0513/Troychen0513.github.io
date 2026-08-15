@@ -1,6 +1,6 @@
 academic:
   - title: "Medical Artificial Intelligence Laboratory, Westlake University"
     image: ./assets/img/westlake_logo.jpg
-    description: "<i><b>Topics</b>: Medical AI.</i><br><b>Research Advisor</b>: <a href='https://example.com/'>Advisor Name</a>."
+    description: "<i><b>Topics</b>: Medical AI.</i><br><b>Research Advisors</b>: Prof. <a href='https://www.westlake.edu.cn/faculty/yefeng-zheng.html'>Yefeng Zheng</a> and Dr. <a href='https://zhipengdeng.com/'>Zhipeng Deng</a>.<br>I am deeply grateful to Dr. Deng for introducing me to research, making this an unforgettable experience and teaching me to approach research with humility."
     time: "<b>Research Intern</b>: 2026.3 - Present."
     page: https://medai.lab.westlake.edu.cn/
