@@ -163,6 +163,29 @@ a.avatar img {
   line-height: 1.45;
 }
 
+.latex-logo {
+  display: inline-block;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: -0.08em;
+  white-space: nowrap;
+}
+
+.latex-logo .latex-a {
+  position: relative;
+  top: -0.45em;
+  margin-left: -0.08em;
+  margin-right: -0.15em;
+  font-size: 0.72em;
+}
+
+.latex-logo .latex-e {
+  position: relative;
+  top: 0.22em;
+  margin-left: -0.12em;
+  margin-right: -0.1em;
+  font-size: 0.72em;
+}
+
 @media (max-width: 720px) {
   body {
     font-size: 16px !important;
