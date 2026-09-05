@@ -24,16 +24,24 @@ With a background in statistics, I'm building a solid foundation in mathematics 
 
 <ul class="dated-list">
   <li>
-    <time datetime="2026-03">Mar 2026</time>
+    <time datetime="2026-03" aria-label="March 2026"><span class="date-year">2026</span><span class="date-month">Mar</span></time>
     <span>Started conducting research in medical artificial intelligence. Hope my first publication will come soon.</span>
   </li>
 </ul>
 
 ## Education
 
-- **Central China Normal University**, 2024-Present.<br>
-  Undergraduate Student, majoring in **Statistics**.<br>
-  School of Mathematics and Statistics, Wuhan, China.
+<div class="education-entry">
+  <div class="education-details">
+    <p><strong>Central China Normal University</strong>, 2024-Present.<br>
+    Undergraduate Student, majoring in <strong>Statistics</strong>.<br>
+    School of Mathematics and Statistics, Wuhan, China.</p>
+  </div>
+  <!-- Official seal: https://www.ccnu.edu.cn/xxgk/hdbs.htm -->
+  <a class="education-seal" href="https://www.ccnu.edu.cn/" aria-label="Central China Normal University">
+    <img src="./assets/img/ccnu_seal.jpg" alt="Central China Normal University seal" width="96" height="96" loading="lazy">
+  </a>
+</div>
 
 {% include_relative _includes/projects.md %}
 
@@ -45,23 +53,23 @@ With a background in statistics, I'm building a solid foundation in mathematics 
 
 <ul class="dated-list">
   <li>
-    <time datetime="2026-10">Oct 2026</time>
+    <time datetime="2026-10" aria-label="October 2026"><span class="date-year">2026</span><span class="date-month">Oct</span></time>
     <span>Merit Student, Central China Normal University.</span>
   </li>
   <li>
-    <time datetime="2026-06">Jun 2026</time>
+    <time datetime="2026-06" aria-label="June 2026"><span class="date-year">2026</span><span class="date-month">Jun</span></time>
     <span>First Prize, Zhengda Cup National College Student Market Research and Analysis Competition.</span>
   </li>
   <li>
-    <time datetime="2025-11">Nov 2025</time>
+    <time datetime="2025-11" aria-label="November 2025"><span class="date-year">2025</span><span class="date-month">Nov</span></time>
     <span>First Prize, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM).</span>
   </li>
   <li>
-    <time datetime="2025-10">Oct 2025</time>
+    <time datetime="2025-10" aria-label="October 2025"><span class="date-year">2025</span><span class="date-month">Oct</span></time>
     <span>First-class Scholarship, Central China Normal University (<strong>the only recipient in my major</strong>).</span>
   </li>
   <li>
-    <time datetime="2025-08">Aug 2025</time>
+    <time datetime="2025-08" aria-label="August 2025"><span class="date-year">2025</span><span class="date-month">Aug</span></time>
     <span>First Prize, APMCM.</span>
   </li>
 </ul>
@@ -70,7 +78,7 @@ With a background in statistics, I'm building a solid foundation in mathematics 
 
 - **IELTS:** 7.0.
 - **CET-4:** 658/710, **CET-6:** 631/710.
-- Native speaker of **Mandarin**, with basic Cantonese proficiency; currently learning basic **German**.
+- Native speaker of **Mandarin**, with basic **Cantonese** proficiency; currently learning basic **German**.
 - **Programming Languages:** Python, MATLAB, R, SQL.
 - **Technical Skills:** PyTorch, Hugging Face Transformers, Git, Linux, <span class="latex-logo">L<span class="latex-a">A</span>T<span class="latex-e">E</span>X</span>.
 
