@@ -62,6 +62,35 @@ a.avatar img {
   object-fit: cover;
 }
 
+header .email-link {
+  color: inherit;
+}
+
+header .email-link:hover {
+  color: var(--accent);
+}
+
+.dated-list {
+  list-style: none;
+  padding: 0;
+}
+
+.dated-list li {
+  display: grid;
+  grid-template-columns: 5.25rem minmax(0, 1fr);
+  column-gap: 1rem;
+  margin-bottom: 0.55rem;
+}
+
+.dated-list time {
+  padding-top: 0.12em;
+  color: var(--ink-soft);
+  font-size: 0.88em;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
 .project-list {
   margin: 0.35rem 0 1.8rem;
 }
@@ -129,6 +158,7 @@ a.avatar img {
 
 .experience-publications ol.bibliography li {
   min-height: 120px;
+  margin-bottom: 1.5rem;
 }
 
 .experience-entry {
@@ -161,6 +191,26 @@ a.avatar img {
   margin-top: 0.18rem;
   color: #444;
   line-height: 1.45;
+}
+
+.experience-content {
+  min-width: 0;
+}
+
+.experience-reflection {
+  margin: 1rem 0 0;
+  padding: 0.65rem 1rem;
+  border-left: 3px solid var(--accent);
+  background: #f3f8f7;
+  color: var(--ink-soft);
+  font-size: inherit;
+  font-style: italic;
+}
+
+.wrapper section .experience-reflection p {
+  margin: 0;
+  font-size: 0.94em !important;
+  line-height: 1.6;
 }
 
 .latex-logo {
@@ -199,6 +249,11 @@ a.avatar img {
 
   .wrapper section h2 {
     font-size: 25px !important;
+  }
+
+  .dated-list li {
+    grid-template-columns: 4.5rem minmax(0, 1fr);
+    column-gap: 0.75rem;
   }
 
   .experience-entry {

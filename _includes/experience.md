@@ -24,8 +24,12 @@
     {% endif %}
   </div>
 </div>
+{% if link.reflection and link.reflection != empty %}
+<blockquote class="experience-reflection">
+  <p>{{ link.reflection | escape }}</p>
+</blockquote>
+{% endif %}
 </li>
-<br>
 
 {% endfor %}
 

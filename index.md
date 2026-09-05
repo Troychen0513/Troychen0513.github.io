@@ -12,7 +12,7 @@ With a background in statistics, I'm building a solid foundation in mathematics 
 
 <p style="margin-bottom: 0;"><b><i style="color: #043361!important;">I'm open to research opportunities in related areas, while also exploring the research directions that I'm most passionate about for the future.</i></b></p>
 
-<p style="margin-bottom: 0;"><b><i style="color: #ed0e1d!important;">Last updated on 2026/8/15.</i></b></p>
+<p style="margin-bottom: 0;"><b><i style="color: #ed0e1d!important;">Last updated on <time datetime="2026-09-05">September 5, 2026</time>.</i></b></p>
 
 ## Research Interests
 
@@ -22,11 +22,17 @@ With a background in statistics, I'm building a solid foundation in mathematics 
 
 ## News
 
-- **[2026]** Started conducting research in medical artificial intelligence. Hope my first publication will come soon.
+<ul class="dated-list">
+  <li>
+    <time datetime="2026-03">Mar 2026</time>
+    <span>Started conducting research in medical artificial intelligence. Hope my first publication will come soon.</span>
+  </li>
+</ul>
 
 ## Education
 
-- **Undergraduate Student**, Central China Normal University, 2024-Present.  
+- **Central China Normal University**, 2024-Present.<br>
+  Undergraduate Student, majoring in **Statistics**.<br>
   School of Mathematics and Statistics, Wuhan, China.
 
 {% include_relative _includes/projects.md %}
@@ -37,17 +43,34 @@ With a background in statistics, I'm building a solid foundation in mathematics 
 
 ## Honors & Awards
 
-- **[2026]** Merit Student, Central China Normal University.
-- **[2026]** First Prize, Zhengda Cup National College Student Market Research and Analysis Competition.
-- **[2025]** First-class Scholarship, Central China Normal University (**the only recipient in my major**).
-- **[2025]** First Prize, APMCM.
-- **[2025]** First Prize, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM).
+<ul class="dated-list">
+  <li>
+    <time datetime="2026-10">Oct 2026</time>
+    <span>Merit Student, Central China Normal University.</span>
+  </li>
+  <li>
+    <time datetime="2026-06">Jun 2026</time>
+    <span>First Prize, Zhengda Cup National College Student Market Research and Analysis Competition.</span>
+  </li>
+  <li>
+    <time datetime="2025-11">Nov 2025</time>
+    <span>First Prize, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM).</span>
+  </li>
+  <li>
+    <time datetime="2025-10">Oct 2025</time>
+    <span>First-class Scholarship, Central China Normal University (<strong>the only recipient in my major</strong>).</span>
+  </li>
+  <li>
+    <time datetime="2025-08">Aug 2025</time>
+    <span>First Prize, APMCM.</span>
+  </li>
+</ul>
 
 ## Skills & Language
 
 - **IELTS:** 7.0.
 - **CET-4:** 658/710, **CET-6:** 631/710.
-- Native speaker of **Mandarin**, with basic Cantonese proficiency.
+- Native speaker of **Mandarin**, with basic Cantonese proficiency; currently learning basic **German**.
 - **Programming Languages:** Python, MATLAB, R, SQL.
 - **Technical Skills:** PyTorch, Hugging Face Transformers, Git, Linux, <span class="latex-logo">L<span class="latex-a">A</span>T<span class="latex-e">E</span>X</span>.
 
