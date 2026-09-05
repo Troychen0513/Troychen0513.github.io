@@ -1,5 +1,4 @@
-{% if site.data.projects.main and site.data.projects.main.size > 0 %}
-<h2 id="projects">Current Research</h2>
+<h2 id="projects">Selected Projects</h2>
 
 <div class="project-list">
 {% for link in site.data.projects.main %}
@@ -35,4 +34,3 @@
 </div>
 {% endfor %}
 </div>
-{% endif %}

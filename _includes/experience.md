@@ -2,13 +2,19 @@
 
 <h3 id="academic-experience" class="experience-subtitle">Academic Experience</h3>
 
-<ul class="experience-list">
+<div class="publications experience-publications">
+<ol class="bibliography">
 
 {% for link in site.data.academic_experience.academic %}
 
 <li>
-<div class="institution-entry experience-entry">
-  <div class="experience-content">
+<div class="pub-row experience-entry">
+  <div class="col-sm-3 abbr experience-abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    {% if link.image %}
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1 experience-teaser" alt="{{ link.title }} logo">
+    {% endif %}
+  </div>
+  <div class="col-sm-9 experience-content" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="{{ link.page }}">{{ link.title }}</a></div>
     {% if link.time %}
     <div class="time">{{ link.time }}</div>
@@ -17,11 +23,6 @@
     <div class="description">{{ link.description }}</div>
     {% endif %}
   </div>
-  {% if link.image %}
-  <a class="institution-logo" href="{{ link.page }}" aria-label="{{ link.title | escape }}">
-    <img src="{{ link.image }}" alt="{{ link.title | escape }} logo" width="88" height="88" loading="lazy">
-  </a>
-  {% endif %}
 </div>
 {% if link.reflection and link.reflection != empty %}
 <blockquote class="experience-reflection">
@@ -32,4 +33,5 @@
 
 {% endfor %}
 
-</ul>
+</ol>
+</div>

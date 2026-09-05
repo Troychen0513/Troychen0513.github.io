@@ -10,9 +10,9 @@ My current interests lie at the intersection of **statistics, artificial intelli
 
 With a background in statistics, I'm building a solid foundation in mathematics while strengthening my ability to conduct research through hands-on research practice. I plan to pursue an AI-related direction in my future M.S. or Ph.D. studies.
 
-<p class="research-availability"><strong><em>I'm open to research opportunities in related areas, while also exploring the research directions that I'm most passionate about for the future.</em></strong></p>
+<p style="margin-bottom: 0;"><b><i style="color: #043361!important;">I'm open to research opportunities in related areas, while also exploring the research directions that I'm most passionate about for the future.</i></b></p>
 
-<p class="last-updated"><em>Last updated on <time datetime="2026-09-05">2026/9/5</time></em></p>
+<p style="margin-bottom: 0;"><b><i style="color: #ed0e1d!important;">Last updated on <time datetime="2026-09-05">September 5, 2026</time>.</i></b></p>
 
 ## Research Interests
 
@@ -24,56 +24,52 @@ With a background in statistics, I'm building a solid foundation in mathematics 
 
 <ul class="dated-list">
   <li>
-    <time datetime="2026-03" aria-label="March 2026"><span class="date-month">Mar</span> <span class="date-year">2026</span></time>
+    <time datetime="2026-03" aria-label="March 2026"><span class="date-year">2026</span><span class="date-month">Mar</span></time>
     <span>Started conducting research in medical artificial intelligence. Hope my first publication will come soon.</span>
   </li>
 </ul>
 
-{% include_relative _includes/experience.md %}
+## Education
 
-<h2 id="education">Education</h2>
-
-<ul class="education-list">
-<li>
-<div class="institution-entry education-entry">
+<div class="education-entry">
   <div class="education-details">
     <p><strong>Central China Normal University</strong>, 2024-Present.<br>
     Undergraduate Student, majoring in <strong>Statistics</strong>.<br>
     School of Mathematics and Statistics, Wuhan, China.</p>
   </div>
   <!-- Official seal: https://www.ccnu.edu.cn/xxgk/hdbs.htm -->
-  <a class="institution-logo education-seal" href="https://www.ccnu.edu.cn/" aria-label="Central China Normal University">
-    <img src="./assets/img/ccnu_seal.jpg" alt="Central China Normal University seal" width="88" height="88" loading="lazy">
+  <a class="education-seal" href="https://www.ccnu.edu.cn/" aria-label="Central China Normal University">
+    <img src="./assets/img/ccnu_seal.jpg" alt="Central China Normal University seal" width="96" height="96" loading="lazy">
   </a>
 </div>
-</li>
-</ul>
 
 {% include_relative _includes/projects.md %}
 
 {% include_relative _includes/publications.md %}
 
-<h2 id="honors-awards">Honors &amp; Awards</h2>
+{% include_relative _includes/experience.md %}
+
+## Honors & Awards
 
 <ul class="dated-list">
   <li>
-    <time datetime="2026-10" aria-label="October 2026"><span class="date-month">Oct</span> <span class="date-year">2026</span></time>
+    <time datetime="2026-10" aria-label="October 2026"><span class="date-year">2026</span><span class="date-month">Oct</span></time>
     <span>Merit Student, Central China Normal University.</span>
   </li>
   <li>
-    <time datetime="2026-06" aria-label="June 2026"><span class="date-month">Jun</span> <span class="date-year">2026</span></time>
+    <time datetime="2026-06" aria-label="June 2026"><span class="date-year">2026</span><span class="date-month">Jun</span></time>
     <span>First Prize, Zhengda Cup National College Student Market Research and Analysis Competition.</span>
   </li>
   <li>
-    <time datetime="2025-11" aria-label="November 2025"><span class="date-month">Nov</span> <span class="date-year">2025</span></time>
+    <time datetime="2025-11" aria-label="November 2025"><span class="date-year">2025</span><span class="date-month">Nov</span></time>
     <span>First Prize, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM).</span>
   </li>
   <li>
-    <time datetime="2025-10" aria-label="October 2025"><span class="date-month">Oct</span> <span class="date-year">2025</span></time>
+    <time datetime="2025-10" aria-label="October 2025"><span class="date-year">2025</span><span class="date-month">Oct</span></time>
     <span>First-class Scholarship, Central China Normal University (<strong>the only recipient in my major</strong>).</span>
   </li>
   <li>
-    <time datetime="2025-08" aria-label="August 2025"><span class="date-month">Aug</span> <span class="date-year">2025</span></time>
+    <time datetime="2025-08" aria-label="August 2025"><span class="date-year">2025</span><span class="date-month">Aug</span></time>
     <span>First Prize, APMCM.</span>
   </li>
 </ul>

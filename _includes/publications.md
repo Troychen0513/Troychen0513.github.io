@@ -1,5 +1,6 @@
-{% if site.data.publications.main and site.data.publications.main.size > 0 %}
 <h2 id="publications">Publications</h2>
+
+{% if site.data.publications.main and site.data.publications.main.size > 0 %}
 <div class="publications">
 <ol class="bibliography">
 {% for link in site.data.publications.main %}
@@ -47,4 +48,6 @@
 {% endfor %}
 </ol>
 </div>
+{% else %}
+<p class="muted-note">I am currently developing research projects in medical AI, trustworthy machine learning, and large language models for healthcare. Publications and preprints will be added here when available.</p>
 {% endif %}
