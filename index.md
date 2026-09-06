@@ -2,7 +2,7 @@
 layout: homepage
 ---
 
-## About Me
+<h2 id="about-me">About Me</h2>
 
 I'm currently a *junior* undergraduate student at the [School of Mathematics and Statistics](https://maths.ccnu.edu.cn/), [Central China Normal University](https://www.ccnu.edu.cn/), pursuing a Bachelor’s degree in *Statistics*.
 
@@ -14,13 +14,13 @@ With a background in statistics, I'm building a solid foundation in mathematics 
 
 <p style="margin-bottom: 0;"><b><i style="color: #ed0e1d!important;">Last updated on <time datetime="2026-09-05">2026/9/5</time></i></b></p>
 
-## Research Interests
+<h2 id="research-interests">Research Interests</h2>
 
 - **Medical AI:** Building practical and reliable medical AI tools that can assist real-world clinical and research workflows.
 - **Trustworthy Machine Learning:** Studying reliability, interpretability, and robustness of AI systems in high-stakes medical scenarios.
 - **Large Language Models for Healthcare:** Exploring how large language models can support medical research assistance and safer AI applications.
 
-## News
+<h2 id="news">News</h2>
 
 <ul class="dated-list">
   <li>
@@ -29,7 +29,7 @@ With a background in statistics, I'm building a solid foundation in mathematics 
   </li>
 </ul>
 
-## Education
+<h2 id="education">Education</h2>
 
 <div class="education-entry">
   <div class="education-details">
@@ -49,7 +49,7 @@ With a background in statistics, I'm building a solid foundation in mathematics 
 
 {% include_relative _includes/experience.md %}
 
-## Honors & Awards
+<h2 id="honors--awards">Honors &amp; Awards</h2>
 
 <ul class="dated-list">
   <li>
@@ -74,7 +74,7 @@ With a background in statistics, I'm building a solid foundation in mathematics 
   </li>
 </ul>
 
-## Skills & Language
+<h2 id="skills--language">Skills &amp; Language</h2>
 
 - **IELTS:** 7.0.
 - **CET-4:** 658/710, **CET-6:** 631/710.
@@ -82,13 +82,13 @@ With a background in statistics, I'm building a solid foundation in mathematics 
 - **Programming Languages:** Python, MATLAB, R, SQL.
 - **Technical Skills:** PyTorch, Hugging Face Transformers, Git, Linux, <span class="latex-logo">L<span class="latex-a">A</span>T<span class="latex-e">E</span>X</span>.
 
-## Contact
+<h2 id="contact">Contact</h2>
 
 I am open to research opportunities and collaborations. If you have gone through a similar transition toward AI-related research, or are considering one, I would be happy to connect and exchange ideas.
 
 **Please feel free to contact me by [email](mailto:troytu90@gmail.com).**
 
-## Misc
+<h2 id="misc">Misc</h2>
 
 - Beyond the screen, when I am not debugging code or proving theorems, you will often find me on the track. I see *running* as a wonderful way to relieve stress and clear my mind.
 - I am a big fan of Hong Kong films, such as *Cold War*, and I always enjoy discussing the details behind the stories.
