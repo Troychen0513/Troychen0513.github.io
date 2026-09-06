@@ -166,20 +166,22 @@ header .email-link:hover {
 header .profile-quote {
   position: relative;
   box-sizing: border-box;
-  max-width: 15rem;
-  margin: 1.9rem auto 0;
-  padding: 1rem 1rem 0.85rem 1.15rem;
-  border-left: 3px solid var(--underline);
-  border-radius: 0 7px 7px 0;
-  background: #f7faf9;
-  text-align: left;
+  max-width: 14rem;
+  margin: 1.75rem auto 0;
+  padding: 1.05rem 0.85rem 0.8rem;
+  border-top: 2px solid var(--underline);
+  border-bottom: 1px solid #dce9e5;
+  text-align: center;
 }
 
 header .profile-quote::before {
   content: "“";
   position: absolute;
-  top: -0.72rem;
-  left: 0.62rem;
+  top: -1.03rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 0.35rem;
+  background: #fff;
   color: var(--accent);
   font-family: Georgia, "Times New Roman", serif;
   font-size: 2.8rem;
@@ -197,18 +199,12 @@ header .profile-quote-text {
   line-height: 1.42;
 }
 
-header .profile-quote-translation {
-  margin-top: 0.55rem !important;
-  color: var(--ink-soft);
-  font-size: 13px;
-  line-height: 1.5;
-}
-
 header .profile-quote-attribution {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 0.08rem;
-  margin-top: 0.7rem !important;
+  margin-top: 0.65rem !important;
   color: var(--ink-soft);
   font-size: 12px;
   line-height: 1.35;
