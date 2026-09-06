@@ -257,22 +257,69 @@ header .email-link:hover {
 
 .education-entry {
   display: grid;
-  grid-template-columns: minmax(0, max-content) 96px;
-  align-items: center;
-  width: fit-content;
-  max-width: 100%;
-  gap: 1.5rem;
+  grid-template-columns: 72px minmax(0, 1fr);
+  grid-template-areas:
+    "seal heading"
+    "seal details";
+  align-items: start;
+  gap: 0.3rem 1.1rem;
   margin-bottom: 1.25rem;
+}
+
+.education-heading {
+  grid-area: heading;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.2rem 1rem;
+  min-width: 0;
+}
+
+.wrapper section .education-heading h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.education-period {
+  color: var(--ink-soft);
+  font-size: 15px;
+  font-variant-numeric: lining-nums tabular-nums;
+  white-space: nowrap;
+}
+
+.education-details {
+  grid-area: details;
+  min-width: 0;
 }
 
 .education-details p {
   margin: 0;
 }
 
+.wrapper section .education-meta {
+  margin-top: 0.15rem;
+  color: var(--ink-soft);
+  font-size: 16px !important;
+  line-height: 1.5;
+}
+
+.education-location {
+  white-space: nowrap;
+}
+
 .education-seal {
+  grid-area: seal;
   display: block;
-  width: 96px;
-  height: 96px;
+  width: 72px;
+  height: 72px;
+}
+
+.education-seal:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
 }
 
 .education-seal img {
@@ -494,9 +541,24 @@ header .email-link:hover {
   }
 
   .education-entry {
-    grid-template-columns: minmax(0, 1fr) 64px;
-    align-items: start;
-    gap: 1rem;
+    grid-template-columns: 64px minmax(0, 1fr);
+    grid-template-areas:
+      "seal heading"
+      "details details";
+    gap: 0.65rem 1rem;
+  }
+
+  .education-heading {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .wrapper section .education-heading h3 {
+    font-size: 18px;
+  }
+
+  .wrapper section .education-meta {
+    font-size: 15px !important;
   }
 
   .education-seal {

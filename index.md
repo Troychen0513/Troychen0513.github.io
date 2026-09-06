@@ -32,15 +32,18 @@ With a background in statistics, I'm building a solid foundation in mathematics 
 <h2 id="education">Education</h2>
 
 <div class="education-entry">
-  <div class="education-details">
-    <p><strong>Central China Normal University</strong>, 2024-Present.<br>
-    Undergraduate Student, majoring in <strong>Statistics</strong>.<br>
-    School of Mathematics and Statistics, Wuhan, China.</p>
-  </div>
   <!-- Official seal: https://www.ccnu.edu.cn/xxgk/hdbs.htm -->
   <a class="education-seal" href="https://www.ccnu.edu.cn/" aria-label="Central China Normal University">
-    <img src="./assets/img/ccnu_seal.jpg" alt="Central China Normal University seal" width="96" height="96" loading="lazy">
+    <img src="./assets/img/ccnu_seal.jpg" alt="Central China Normal University seal" width="72" height="72" loading="lazy">
   </a>
+  <div class="education-heading">
+    <h3>Central China Normal University</h3>
+    <span class="education-period"><time datetime="2024">2024</time>&ndash;Present</span>
+  </div>
+  <div class="education-details">
+    <p class="education-degree">Undergraduate Student in <strong>Statistics</strong></p>
+    <p class="education-meta">School of Mathematics and Statistics, <span class="education-location">Wuhan, China.</span></p>
+  </div>
 </div>
 
 {% include_relative _includes/projects.md %}
@@ -78,7 +81,7 @@ With a background in statistics, I'm building a solid foundation in mathematics 
 
 - **IELTS:** 7.0.
 - **CET-4:** 658/710, **CET-6:** 631/710.
-- Native speaker of **Mandarin**, with basic **Cantonese** proficiency; currently learning basic **German**.
+- Native speaker of **Mandarin**, with basic **Cantonese** proficiency; currently learning basic **German** and **French**.
 - **Programming Languages:** Python, MATLAB, R, SQL.
 - **Technical Skills:** PyTorch, Hugging Face Transformers, Git, Linux, <span class="latex-logo">L<span class="latex-a">A</span>T<span class="latex-e">E</span>X</span>.
 
