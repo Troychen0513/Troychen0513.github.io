@@ -1,0 +1,51 @@
+main:
+  - id: running
+    text: 'Beyond the screen, when I am not debugging code or proving theorems, you will often find me on the track. I see <em>running</em> as a wonderful way to relieve stress and clear my mind.'
+
+  - id: movie
+    label: Movie
+    text: 'I am a big fan of Hong Kong films, such as <em>Cold War</em>, and I always enjoy discussing the details behind the'
+    # Keep the final word and the disclosure arrow together when text wraps.
+    ending: stories.
+    # Append more entries to this list; slides and dots are generated automatically.
+    images:
+      - src: /assets/img/misc/cold-war-still.webp
+        alt: Aaron Kwok as Sean Lau in Cold War (2012)
+        caption: Cold War (2012)
+        credit: Film at Lincoln Center
+        source: https://www.filmlinc.org/films/cold-war/
+        width: 640
+        height: 391
+      - src: /assets/img/misc/cold-war-poster.webp
+        alt: Hong Kong theatrical poster for Cold War (2012)
+        caption: Cold War - Hong Kong poster
+        credit: ScreenAnarchy
+        source: https://screenanarchy.com/2012/11/counterpoint-review-cold-war.html
+        width: 430
+        height: 620
+
+  - id: music
+    label: Music
+    text: '<em>Music</em> has always been a companion in my life. I especially love David Tao''s'
+    ending: songs.
+    images:
+      - src: /assets/img/misc/david-tao-stage.webp
+        alt: David Tao performing in a white vest during Soul Power II in Beijing
+        caption: David Tao - Soul Power II
+        credit: MTV
+        source: https://www.mtv.com.tw/news/newsdetail/12515
+        width: 960
+        height: 540
+      - src: /assets/img/misc/david-tao-portrait.webp
+        alt: David Tao singing into a microphone during Soul Power II
+        caption: David Tao - Live in Beijing
+        credit: MTV
+        source: https://www.mtv.com.tw/news/newsdetail/12515
+        width: 640
+        height: 960
+
+  - id: writing
+    text: I am also trying to write on Zhihu, mainly about interesting ideas, research experiences, and problems I encounter along the way.
+
+  - id: more
+    text: More details will be added as my research projects continue to develop.

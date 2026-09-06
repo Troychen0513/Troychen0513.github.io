@@ -88,10 +88,4 @@ I am open to research opportunities and collaborations. If you have gone through
 
 **Please feel free to contact me by [email](mailto:troytu90@gmail.com).**
 
-<h2 id="misc">Misc</h2>
-
-- Beyond the screen, when I am not debugging code or proving theorems, you will often find me on the track. I see *running* as a wonderful way to relieve stress and clear my mind.
-- I am a big fan of Hong Kong films, such as *Cold War*, and I always enjoy discussing the details behind the stories.
-- *Music* has always been a companion in my life. I especially love David Tao's songs.
-- I am also trying to write on Zhihu, mainly about interesting ideas, research experiences, and problems I encounter along the way.
-- More details will be added as my research projects continue to develop.
+{% include_relative _includes/misc.md %}

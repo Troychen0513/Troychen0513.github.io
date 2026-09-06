@@ -1,0 +1,248 @@
+.misc-list {
+  padding-left: 1.4rem;
+}
+
+.misc-list > li {
+  margin-bottom: 0.5rem;
+}
+
+.misc-disclosure > summary {
+  display: block;
+  list-style: none;
+  cursor: pointer;
+}
+
+.misc-disclosure > summary::-webkit-details-marker {
+  display: none;
+}
+
+.misc-ending {
+  white-space: nowrap;
+}
+
+.misc-toggle-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 24px;
+  margin-left: 0.15rem;
+  vertical-align: middle;
+  color: var(--accent);
+}
+
+.misc-icon {
+  display: block;
+  flex: none;
+  width: 14px;
+  height: 14px;
+  background: currentColor;
+  -webkit-mask: var(--misc-icon) center / contain no-repeat;
+  mask: var(--misc-icon) center / contain no-repeat;
+}
+
+.misc-icon-caret {
+  --misc-icon: url("../img/icons/caret-down.svg");
+  width: 10px;
+  height: 10px;
+  transition: transform 150ms ease;
+}
+
+.misc-disclosure[open] .misc-icon-caret {
+  transform: rotate(180deg);
+}
+
+.misc-icon-prev {
+  --misc-icon: url("../img/icons/chevron-left.svg");
+}
+
+.misc-icon-next {
+  --misc-icon: url("../img/icons/chevron-right.svg");
+}
+
+.misc-gallery {
+  --misc-image-height: 240px;
+  width: 100%;
+  max-width: 420px;
+  margin: 0.65rem 0 0.9rem;
+}
+
+.misc-viewport {
+  display: flex;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+}
+
+.misc-gallery.is-enhanced .misc-viewport {
+  scrollbar-width: none;
+}
+
+.misc-gallery.is-enhanced .misc-viewport::-webkit-scrollbar {
+  display: none;
+}
+
+.misc-slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  margin: 0;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.misc-slide img {
+  display: block;
+  width: 100%;
+  height: var(--misc-image-height);
+  object-fit: contain;
+  background: #f6f8f7;
+  border-radius: 4px;
+}
+
+.misc-slide figcaption {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 3.5rem;
+  padding: 0.35rem 0;
+  font-size: 13px;
+  line-height: 1.4;
+  text-align: center;
+  overflow-wrap: anywhere;
+  color: var(--ink-soft);
+}
+
+.misc-slide figcaption a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.misc-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.misc-controls button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  flex: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.misc-controls button:hover:not(:disabled) {
+  background: var(--accent-soft);
+}
+
+.misc-controls button:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.misc-controls .misc-arrow {
+  width: 32px;
+  height: 32px;
+}
+
+.misc-dots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 0;
+}
+
+.misc-controls .misc-dot {
+  width: 28px;
+  height: 32px;
+}
+
+.misc-dot span {
+  box-sizing: border-box;
+  width: 6px;
+  height: 6px;
+  border: 1px solid #70827d;
+  border-radius: 50%;
+}
+
+.misc-dot[aria-current="true"] span {
+  border-color: var(--accent);
+  background: var(--accent);
+}
+
+.misc-disclosure > summary:focus-visible,
+.misc-viewport:focus-visible,
+.misc-controls button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.wrapper section .misc-image-error {
+  display: grid;
+  place-items: center;
+  height: var(--misc-image-height);
+  margin: 0;
+  background: #f6f8f7;
+  color: var(--ink-soft);
+  font-size: 14px !important;
+}
+
+.misc-gallery [hidden] {
+  display: none !important;
+}
+
+.misc-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@media (max-width: 720px) {
+  .misc-gallery {
+    --misc-image-height: 180px;
+  }
+}
+
+@media (pointer: coarse) {
+  .misc-disclosure > summary {
+    min-height: 44px;
+  }
+
+  .misc-toggle-icon {
+    width: 36px;
+  }
+
+  .misc-controls .misc-arrow,
+  .misc-controls .misc-dot {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .misc-icon-caret {
+    transition: none;
+  }
+}
+
+@media print {
+  .misc-toggle-icon,
+  .misc-gallery {
+    display: none;
+  }
+}
