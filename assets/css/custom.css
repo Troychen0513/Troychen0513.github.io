@@ -257,7 +257,7 @@ header .email-link:hover {
 
 .education-entry {
   display: grid;
-  grid-template-columns: 72px minmax(0, 1fr);
+  grid-template-columns: 96px minmax(0, 1fr);
   grid-template-areas:
     "seal heading"
     "seal details";
@@ -312,9 +312,15 @@ header .email-link:hover {
 
 .education-seal {
   grid-area: seal;
+  align-self: center;
   display: block;
-  width: 72px;
-  height: 72px;
+  box-sizing: border-box;
+  width: 96px;
+  height: 96px;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.22);
+  background: #fff;
 }
 
 .education-seal:focus-visible {
@@ -541,7 +547,7 @@ header .email-link:hover {
   }
 
   .education-entry {
-    grid-template-columns: 64px minmax(0, 1fr);
+    grid-template-columns: 80px minmax(0, 1fr);
     grid-template-areas:
       "seal heading"
       "details details";
@@ -549,6 +555,7 @@ header .email-link:hover {
   }
 
   .education-heading {
+    align-self: center;
     flex-direction: column;
     align-items: flex-start;
   }
@@ -562,8 +569,9 @@ header .email-link:hover {
   }
 
   .education-seal {
-    width: 64px;
-    height: 64px;
+    width: 80px;
+    height: 80px;
+    padding: 8px;
   }
 
   .experience-entry {
