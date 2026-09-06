@@ -64,63 +64,64 @@
 
         {% if site.position %}
         <span class="profile-position">{{ site.position }}</span>
-        <br>
         {% endif %}
         {% if site.affiliation %}
         <a class="profile-affiliation" href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
-        <br>
         {% endif %}
         {% if site.email %}
         <a class="email-link" href="mailto:{{ site.email }}"><email>{{ site.email }}</email></a>
         {% endif %}
 
-        <br>
-        <br>
         <div class="social-icons">
         {% if site.email %}
-        <a style="margin: 0 5px 0 0" href="mailto:{{ site.email }}" aria-label="Email" title="Email">
+        <a href="mailto:{{ site.email }}" aria-label="Email" title="Email">
           <i class="fa-solid fa-envelope" aria-hidden="true"></i>
         </a>
         {% endif %}
 
         {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
+        <a href="{{ site.google_scholar }}">
           <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
         </a>  
         {% endif %}
 
         {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
+        <a href="{{ site.cv_link }}">
           <i class="ai ai-cv" style="font-size:1.3rem;"></i>
         </a>
         {% endif %}
 
         {% if site.github_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}" aria-label="GitHub" title="GitHub">
+        <a href="{{ site.github_link }}" aria-label="GitHub" title="GitHub">
           <i class="fab fa-github" aria-hidden="true"></i>
         </a>
         {% endif %}
 
         {% if site.linkedin %}
-        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}" aria-label="LinkedIn" title="LinkedIn">
+        <a href="{{ site.linkedin }}" aria-label="LinkedIn" title="LinkedIn">
           <i class="fab fa-linkedin" aria-hidden="true"></i>
         </a>
         {% endif %}
 
         {% if site.twitter %}
-        <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
+        <a href="{{ site.twitter }}">
           <i class="fab fa-x-twitter"></i>
         </a>
         {% endif %}
         </div>
-        <aside class="profile-quote" aria-label="A quotation by Seneca">
-          <p class="profile-quote-text">“We suffer more often in imagination than in reality.”</p>
-          <p class="profile-quote-attribution">
-            <cite>Seneca</cite>
-            <a href="https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_13" target="_blank" rel="noopener">Moral Letters to Lucilius, Letter 13</a>
-          </p>
-        </aside>
-        <br>
+        <figure class="profile-quote" aria-label="A quotation by Seneca">
+          <div class="profile-quote-divider" aria-hidden="true"><span>&ldquo;</span></div>
+          <blockquote cite="https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_13">
+            <p class="profile-quote-text">We suffer more often in imagination than in reality.</p>
+          </blockquote>
+          <figcaption class="profile-quote-attribution">
+            <span class="profile-quote-author">Seneca</span>
+            <a href="https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_13" target="_blank" rel="noopener">
+              <cite>Moral Letters to Lucilius</cite>
+              <span class="profile-quote-letter">Letter 13</span>
+            </a>
+          </figcaption>
+        </figure>
 
       </header>
       <section>
