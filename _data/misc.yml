@@ -1,6 +1,23 @@
 main:
-  - id: running
-    text: 'Beyond the screen, when I am not debugging code or proving theorems, you will often find me on the track. I see <em>running</em> as a wonderful way to relieve stress and clear my mind.'
+  - id: football
+    label: Football
+    text: 'Beyond the screen, I enjoy watching <em>football</em>. My favorite teams are <em>Bayern Munich</em> and the <em>German national team</em>, and cheering them on is one of my favorite ways to'
+    ending: unwind.
+    images:
+      - src: /assets/img/misc/bayern-munich.webp
+        alt: Bayern Munich players celebrating a goal together
+        caption: Bayern Munich
+        credit: Bundesliga / IMAGO
+        source: https://www.bundesliga.com/en/bundesliga/clubs/fc-bayern-muenchen
+        width: 960
+        height: 640
+      - src: /assets/img/misc/germany-national-team.webp
+        alt: Germany's starting eleven posing before a match against France
+        caption: German national team
+        credit: DFB
+        source: https://www.dfb.de/maenner/nationalmannschaften/nationalmannschaft
+        width: 960
+        height: 540
 
   - id: movie
     label: Movie

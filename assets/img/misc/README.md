@@ -28,6 +28,15 @@ converted to WebP for this site. These are third-party media images; an open
 redistribution license was not established during selection. Source links are
 included with each image and do not imply a license grant.
 
+- `bayern-munich.webp`: Bayern Munich players celebrating a goal, from the
+  Bundesliga's Bayern Munich club page. Photo: Oliver Kaelke / DeFodi Images
+  via IMAGO.
+  https://www.bundesliga.com/en/bundesliga/clubs/fc-bayern-muenchen
+  Original: https://assets.bundesliga.com/contender/2026/8/imago1082300419.jpg
+- `germany-national-team.webp`: Germany's starting eleven before the match
+  against France on March 23, 2024, from the DFB men's national team page.
+  https://www.dfb.de/maenner/nationalmannschaften/nationalmannschaft
+  Original: https://assets.dfb.de/uploads/000/299/946/original_GES_FSR_LYO230324-0987.jpg
 - `cold-war-still.webp`: Film at Lincoln Center, Cold War (2012).
   https://www.filmlinc.org/films/cold-war/
 - `cold-war-poster.webp`: Hong Kong theatrical poster, shown in ScreenAnarchy's
