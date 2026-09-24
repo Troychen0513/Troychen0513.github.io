@@ -12,7 +12,7 @@ With a background in statistics, I'm building a solid foundation in mathematics 
 
 <p style="margin-bottom: 0;"><b><i style="color: #043361!important;">I'm open to research opportunities in related areas, while also exploring the research directions that I'm most passionate about for the future.</i></b></p>
 
-<p style="margin-bottom: 0;"><b><i style="color: #ed0e1d!important;">Last updated on <time datetime="2026-09-05">2026/9/5</time></i></b></p>
+<p style="margin-bottom: 0;"><b><i style="color: #ed0e1d!important;">Last updated on <time datetime="2026-09-24">2026/9/24</time></i></b></p>
 
 <h2 id="research-interests">Research Interests</h2>
 
