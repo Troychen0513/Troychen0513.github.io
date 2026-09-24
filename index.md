@@ -24,6 +24,10 @@ With a background in statistics, I'm building a solid foundation in mathematics 
 
 <ul class="dated-list">
   <li>
+    <time datetime="2026-09" aria-label="September 2026"><span class="date-month">Sep</span> <span class="date-year">2026</span></time>
+    <span>I was honored to receive the <strong>National Scholarship</strong>.</span>
+  </li>
+  <li>
     <time datetime="2026-03" aria-label="March 2026"><span class="date-month">Mar</span> <span class="date-year">2026</span></time>
     <span>Started conducting research in medical artificial intelligence. Hope my first publication will come soon.</span>
   </li>
@@ -56,8 +60,8 @@ With a background in statistics, I'm building a solid foundation in mathematics 
 
 <ul class="dated-list">
   <li>
-    <time datetime="2026-10" aria-label="October 2026"><span class="date-month">Oct</span> <span class="date-year">2026</span></time>
-    <span>Merit Student, Central China Normal University.</span>
+    <time datetime="2026-09" aria-label="September 2026"><span class="date-month">Sep</span> <span class="date-year">2026</span></time>
+    <span>National Scholarship.</span>
   </li>
   <li>
     <time datetime="2026-06" aria-label="June 2026"><span class="date-month">Jun</span> <span class="date-year">2026</span></time>
